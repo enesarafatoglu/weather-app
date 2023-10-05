@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
+.container {
+  width: 607px;
+  height: 720px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, #ff4800, hwb(234 27% 27%));
+  margin-bottom: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.top-bar {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 14px;
+  padding-top: 60px;
+}
+
+.top-bar input {
+  display: flex;
+  width: 362px;
+  height: 78px;
+  background: #ebfffc;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  padding-left: 40px;
+  color: #626262;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.search-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 78px;
+  height: 78px;
+  background: #ebfffc;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.weather-image {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.weather-temp {
+  display: flex;
+  justify-content: center;
   color: white;
+  font-size: 90px;
+  font-weight: 300;
 }
 
-.App-link {
-  color: #61dafb;
+.weather-location {
+  display: flex;
+  justify-content: center;
+  color: greenyellow;
+  font-size: 50px;
+  font-weight: 400;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.data-container {
+  margin-top: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.element {
+  margin: auto;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.data {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.text {
+  font-size: 20px;
+  font-weight: 400;
+  color: orange;
+}
+
+.icon {
+  margin-top: 10px;
 }
